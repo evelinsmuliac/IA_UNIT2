@@ -1,0 +1,84 @@
+body { background-color: #ffb3b3;}
+h1 {color: #cc0066;}
+h2 {color: #cc0066;}
+h3 {color: #cc0066;}
+h4 {color: #cc0066;}
+p {color: #990099;}
+
+a:link {color: #ff00ff;}
+a:visited {color: #990099;}
+a:hover {color: #9966ff;}
+
+#pozaProfil {width: 10%;}
+#diagrama {width: }
+#mac {width: 30%;}
+#ipconfig {width: 30%;}
+#ping {width: 30%;}
+#slide1 {width: 90%;}
+#slide2 {width: 90%;}
+#slide3 {width: 90%;}
+#slide4 {width: 90%;}
+#slide5 {width: 90%;}
+#dots {text-align:center;}
+
+.mySlides {
+	display: none;
+    border: 1px solid black;
+	text-align: center;
+	width:620px;
+	margin: auto;
+	border-radius: 10px;
+	display:block;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+table {background-color: #ff9999;
+	   width: 100%;}
+th, td {text-align: center;
+	    padding: 4px;}
+table, th, td {border: 3px #ffccff;}
+tr:hover {background-color: #ffccff;}
+
+h1 {font-family: "Courier New", Monospace;
+	font-style: bold;
+	font-size: 22px;
+	text-align: center;}
+h2 {font-family: "Courier New", Monospace;
+	font-style: bold;
+	font-size: 20px;
+	border-style: double;}
+h3 {font-family: "Courier New", Monospace;
+	font-style: bold;
+	font-size: 18px;
+	border-style: double;}
+h4{font-family: "Courier New", Monospace;
+   font-style: bold;
+   font-size: 16px;
+   text-decoration: underline;}
+p {font-family: "Lucida Console", Monospace;
+	font-size: 14px;}
+	
+img {border: 3px #1a001a;
+	border-radius: 12px;
+	display: block;
+	padding: 2px;
+	margin: left;
+	opacity: 1;
+	width: 70%;}
